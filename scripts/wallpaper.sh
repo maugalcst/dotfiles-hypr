@@ -25,3 +25,6 @@ pkill -SIGUSR2 waybar 2>/dev/null
 
 # Recargar hyprland (borders)
 hyprctl reload >/dev/null 2>&1
+
+# Regenerar fastfetch
+python3 ~/.config/hypr/scripts/gen-fastfetch.py

@@ -28,3 +28,6 @@ hyprctl reload >/dev/null 2>&1
 
 # Regenerar fastfetch
 python3 ~/.config/hypr/scripts/gen-fastfetch.py
+
+# Recargar btop si está abierto
+pkill -USR1 btop 2>/dev/null
